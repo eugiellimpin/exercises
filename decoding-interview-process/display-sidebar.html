@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <main>
+      <button id="menu-button">Menu</button>
+    </main>
+
+    <style>
+      html * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      main {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      nav {
+        position: absolute;
+        left: -100%;
+        height: 100vh;
+        width: 30%;
+        background-color: #0e0e0e;
+        color: #efefef;
+        padding: 2em;
+      }
+
+      nav.open {
+        left: 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+      }
+    </style>
+
+    <script>
+      // TODO:
+      // - [] animate opening of menu
+
+      const menuButton = document.getElementById('menu-button');
+
+      menuButton.addEventListener('click', function openMenu() {
+        document.querySelector('nav').classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>
