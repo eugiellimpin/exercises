@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <p>Look at the console!</p>
+
+    <script>
+      const animals = [
+        { type: 'Dog', mammal: true },
+        { type: 'Snake', mammal: false },
+        { type: 'Cheetah', mammal: true },
+      ]
+
+      const mammals = animals.filter(function getMammals(a) {
+        return a.mammal;
+      });
+
+      console.log(mammals);
+    </script>
+  </body>
+</html>
