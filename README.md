@@ -4,6 +4,7 @@ This repo contains my JavaScript code solutions to exercises from various source
 
 ## Ongoing
 
+- De-Coding The Technical Interview Process - Emma Bostian
 - [Wes Bos' JavaScript30 course](https://javascript30.com/)
 - [rendezvous with cassidoo](https://cassidoo.co/newsletter/)
 
