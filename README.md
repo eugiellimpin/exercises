@@ -1,4 +1,4 @@
-# Coding exercises using JavaScript
+# Coding exercises
 
 This repo contains my JavaScript code solutions to exercises from various sources.
 
